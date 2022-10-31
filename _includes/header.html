@@ -18,11 +18,21 @@
          <button aria-label="Menu" type="button" class="css-1j8exzv e110ux8g1"><span class="css-1r1jy9b e110ux8g0"></span></button>
          <nav class="css-lk9fmk eibgerf3">
             <ul class="css-z06qs eibgerf2">
-               <li class="css-zpgvaa eibgerf1"><a href="/data-explorer/explorer" class="css-tnbhle eibgerf0">Data Tool</a></li>
-               <li class="css-zpgvaa eibgerf1"><a href="https://educationdata.urban.org/documentation/" class="css-tnbhle eibgerf0">Full API</a></li>
-               <li class="css-zpgvaa eibgerf1"><a href="/data-explorer/about" class="css-tnbhle eibgerf0">About</a></li>
-               <li class="css-zpgvaa eibgerf1"><a href="/data-explorer/contact" class="css-tnbhle eibgerf0">Contact Us</a></li>
-               <li class="css-zpgvaa eibgerf1"><a href="/data-explorer/how-to" class="css-tnbhle eibgerf0">How To</a></li>
+               
+    {% for link in site.navbar %}
+    
+        <li class="css-zpgvaa eibgerf1"><a href="{{ site.navbar.url }}" class="css-tnbhle eibgerf0"> {{site.navbar.title}} </a></li>
+        
+    {% endfor %}              
+              
+               <!-- <li class="css-zpgvaa eibgerf1"><a href="/data-explorer/explorer" class="css-tnbhle eibgerf0">Data Tool</a></li> -->
+               <!-- <li class="css-zpgvaa eibgerf1"><a href="https://educationdata.urban.org/documentation/" class="css-tnbhle eibgerf0">Full API</a></li> -->
+               <!-- <li class="css-zpgvaa eibgerf1"><a href="/data-explorer/about" class="css-tnbhle eibgerf0">About</a></li> -->
+               <!-- <li class="css-zpgvaa eibgerf1"><a href="/data-explorer/contact" class="css-tnbhle eibgerf0">Contact Us</a></li> -->
+               <!-- <li class="css-zpgvaa eibgerf1"><a href="/data-explorer/how-to" class="css-tnbhle eibgerf0">How To</a></li> -->
+               
+               
+               
             </ul>
          </nav>
       </div>
