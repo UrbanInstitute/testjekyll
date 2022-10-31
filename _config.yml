@@ -8,12 +8,12 @@ github:
 
 navbar:
 - title: Data Tool
-  url: index/
+  url: index
 - title: Full API
   url: https://educationdata.urban.org/documentation/
 - title: About
-  url: about/
+  url: about
 - title: Contact Us
-  url: contact/
+  url: contact
 - title: How To
-  url: howto/
+  url: howto
