@@ -21,10 +21,16 @@
                
     {% for link in site.navbar %}
     
-        <li class="css-zpgvaa eibgerf1"><a href="{{ site.navbar.url }}" class="css-tnbhle eibgerf0"> {{site.navbar.title}} </a></li>
+        <li class="css-zpgvaa eibgerf1"><a href="{{ link.url }}" class="css-tnbhle eibgerf0"> {{ link.title }} </a></li>
         
-    {% endfor %}              
-              
+    {% endfor %} 
+               
+        <li>
+           <a href="https://github.com/{{ site.github.username }}/{{ site.github.reponame }}/edit/master/{{page.path}}" target = "_blank"> 
+           <i class="fa fa-github x2" id="github_icon"></i></a>
+        </li>          
+               
+               
                <!-- <li class="css-zpgvaa eibgerf1"><a href="/data-explorer/explorer" class="css-tnbhle eibgerf0">Data Tool</a></li> -->
                <!-- <li class="css-zpgvaa eibgerf1"><a href="https://educationdata.urban.org/documentation/" class="css-tnbhle eibgerf0">Full API</a></li> -->
                <!-- <li class="css-zpgvaa eibgerf1"><a href="/data-explorer/about" class="css-tnbhle eibgerf0">About</a></li> -->
