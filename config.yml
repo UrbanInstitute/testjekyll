@@ -1,0 +1,15 @@
+###
+### NAVIGATION BAR
+###
+
+navbar:
+- title: Data Tool
+  url: index/
+- title: Full API
+  url: https://educationdata.urban.org/documentation/
+- title: About
+  url: about/
+- title: Contact Us
+  url: contact/
+- title: How To
+  url: howto/
