@@ -15,5 +15,5 @@ navbar:
   url: about
 - title: Contact Us
   url: contact
-- title: How To
-  url: howto
+# - title: How To
+#   url: howto
